@@ -1,6 +1,6 @@
 #Installing Awesome Window Manager
 #!/bin/bash
-sudo apt install -y awesome fonts-roboto rofi compton i3lock xclip gnome-keyring materia-gtk-theme papirus-icon-theme lxappearance xbacklight kde-spectacle guake keepassxc &&
+sudo apt install -y awesome fonts-roboto rofi compton i3lock xclip gnome-keyring materia-gtk-theme papirus-icon-theme lxappearance xbacklight kde-spectacle guake keepassxc flatpak &&
 
 sudo snap install telegram-desktop
 sudo snap install chromium

@@ -8,22 +8,25 @@ local rofi_command = 'env /usr/bin/rofi -dpi ' .. get_dpi() .. ' -width ' .. wit
 return {
   -- List of apps to start by default on some actions
   default = {
-    terminal = 'guake',
+    terminal = 'gnome-terminal',
     rofi = rofi_command,
     lock = 'i3lock-fancy',
-    quake = 'terminator',
+    quake = 'guake',
     screenshot = '~/.config/awesome/configuration/utils/screenshot -m',
     region_screenshot = '~/.config/awesome/configuration/utils/screenshot -r',
     delayed_screenshot = 'sleep 10 ; ~/.config/awesome/configuration/utils/screenshot -r',
     
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'brave-browser',
+    -- I prefer brave to chromium, however, you will need to install it for this to work, go to brave.com for updated instructions
+    -- Otherwise, uncomment the following:
+    --browser = 'chromium',
+    browser = 'brave-browser --user-data-dir=/home/david/Sync/Personal/Apps/Brave/userData/', --I like to set the path to my brave user data by specifying --user-data-dir="location" after brave
     editor = 'code', -- gui text editor
-    social = 'discord',
+    social = 'telegram-desktop',
     game = rofi_command,
-    files = 'nautilus -w',
-    music = lollypop
+    files = 'thunar',
+    music = 'lollypop'
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
