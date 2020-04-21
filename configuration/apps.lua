@@ -21,7 +21,7 @@ return {
     -- I prefer brave to chromium, however, you will need to install it for this to work, go to brave.com for updated instructions
     -- Otherwise, uncomment the following:
     --browser = 'chromium',
-    browser = 'brave-browser --user-data-dir=/home/david/Sync/Personal/Apps/Brave/userData/', --I like to set the path to my brave user data by specifying --user-data-dir="location" after brave
+    browser = 'brave-browser --user-data-dir=/home/david/Brave/userData/', --I like to set the path to my brave user data by specifying --user-data-dir="location" after brave
     editor = 'code', -- gui text editor
     social = 'telegram-desktop',
     game = rofi_command,
