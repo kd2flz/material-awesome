@@ -80,7 +80,7 @@ local globalKeys =
     {modkey},
     'l',
     function()
-      awful.spawn(apps.default.lock)
+      awful.spawn('i3lock -i /home/david/Pictures/wallpaper.png')
     end,
     {description = 'Lock the screen', group = 'awesome'}
   ),
@@ -120,7 +120,7 @@ local globalKeys =
     {modkey},
     'b',
     function()
-      awful.util.spawn(apps.default.browser)
+      awful.util.spawn('brave-browser -user-data-dir="/home/david/Sync/Personal/Apps/Brave/userData/"')
     end,
     {description = 'open a browser', group = 'launcher'}
   ),
