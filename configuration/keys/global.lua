@@ -229,8 +229,8 @@ local globalKeys =
     {description = 'restore minimized', group = 'client'}
   ),
   -- Dropdown application
-  awful.key(
-    function()'F12'
+  awful.key({}'F12'
+    function()
       _G.toggle_quake()
     end,
     {description = 'dropdown application', group = 'launcher'}
