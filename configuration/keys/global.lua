@@ -230,7 +230,7 @@ local globalKeys =
   ),
   -- Dropdown application
   awful.key(
-    function()'F'
+    function()'F12'
       _G.toggle_quake()
     end,
     {description = 'dropdown application', group = 'launcher'}
