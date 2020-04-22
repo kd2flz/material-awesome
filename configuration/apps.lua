@@ -45,6 +45,7 @@ return {
      '/home/david/.joplin/Joplin.AppImage',
      'keepassxc',
      'guake',
+     'syncthing --no-browser',
      --'steam -silent',
      --'discord',
     -- Add applications that need to be killed between reloads
