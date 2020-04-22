@@ -229,12 +229,12 @@ local globalKeys =
     {description = 'restore minimized', group = 'client'}
   ),
   -- Dropdown application
-  awful.key({}
+  --[[awful.key({}
     function()
       _G.toggle_quake()
     end,
     {description = 'dropdown application', group = 'launcher'}
-  ),
+  ),--]]
   -- Widgets popups
   --[[awful.key(
     {altkey},
