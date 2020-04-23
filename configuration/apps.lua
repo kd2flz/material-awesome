@@ -26,7 +26,7 @@ return {
     social = 'telegram-desktop',
     game = rofi_command,
     files = 'thunar',
-    music = 'lollypop' 'flatpak run de.haeckerfelix.Shortwave',
+    music = 'lollypop',
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
